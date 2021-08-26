@@ -1,22 +1,42 @@
-# Project V2Ray
+<div>
+  <img width="190" height="210" align="left" src="https://raw.githubusercontent.com/v2fly/v2fly-github-io/master/docs/.vuepress/public/readme-logo.png" alt="V2Ray"/>
+  <br>
+  <h1>Project V</h1>
+  <p>Project V is a set of network tools that helps you to build your own computer network. It secures your network connections and thus protects your privacy.</p>
+</div>
 
-V2Ray 是一个翻墙工具包，用于简化和复用其它翻墙工具，加速二次开发。
+[![GitHub Test Badge](https://github.com/v2fly/v2ray-core/workflows/Test/badge.svg)](https://github.com/v2fly/v2ray-core/actions)
+[![codecov.io](https://codecov.io/gh/v2fly/v2ray-core/branch/master/graph/badge.svg?branch=master)](https://codecov.io/gh/v2fly/v2ray-core?branch=master)
+[![codebeat](https://goreportcard.com/badge/github.com/v2fly/v2ray-core)](https://goreportcard.com/report/github.com/v2fly/v2ray-core)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/e150b7ede2114388921943bf23d95161)](https://www.codacy.com/gh/v2fly/v2ray-core/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=v2fly/v2ray-core&amp;utm_campaign=Badge_Grade)
+[![Downloads](https://img.shields.io/github/downloads/v2fly/v2ray-core/total.svg)](https://github.com/v2fly/v2ray-core/releases/latest)
 
-“V2”来源于 [V2 火箭](https://zh.wikipedia.org/wiki/V-2%E7%81%AB%E7%AE%AD)，Ray 即射线，意指新一代的翻墙工具。
+## Related Links
 
-## 主要特点
-* 多对多服务器支持，负载均衡
-* 支持多用户
-* 开放协议支持，兼容 ShadowSocks 和 GoAgent
+- [Documentation](https://www.v2fly.org) and [Newcomer's Instructions](https://www.v2fly.org/guide/start.html)
+- Welcome to translate V2Ray documents via [Transifex](https://www.transifex.com/v2fly/public/)
 
-## 概要设计
-[链接](https://github.com/V2Ray/v2ray-core/blob/master/spec/design.md)
+## Packaging Status
 
-## 开发日程
+> If you are willing to package V2Ray for other distros/platforms, please let us know or seek for help via [GitHub issues](https://github.com/v2fly/v2ray-core/issues).
 
-2015.11 **1.0** 完成，单服务器模式，可独立运行
-2016.01 **1.5** 完成，兼容 ShadowSocks 协议
-2016.04 **2.0** 完成，多服务器模式
+[![Packaging status](https://repology.org/badge/vertical-allrepos/v2ray.svg)](https://repology.org/project/v2ray/versions)
 
-## 关于
-我是只是一名普通的开发人员，已肉翻，本已不依赖这些翻墙工具，但 ShadowSock 和 GoAgent 被迫删除代码的事件实在太恶心，不得不做点什么了。
+## License
+
+[The MIT License (MIT)](https://raw.githubusercontent.com/v2fly/v2ray-core/master/LICENSE)
+
+## Credits
+
+This repo relies on the following third-party projects:
+
+- In production:
+  - [gorilla/websocket](https://github.com/gorilla/websocket)
+  - [lucas-clemente/quic-go](https://github.com/lucas-clemente/quic-go)
+  - [pires/go-proxyproto](https://github.com/pires/go-proxyproto)
+  - [seiflotfy/cuckoofilter](https://github.com/seiflotfy/cuckoofilter)
+  - [google/starlark-go](https://github.com/google/starlark-go)
+  - [jhump/protoreflect](https://github.com/jhump/protoreflect)
+- For testing only:
+  - [miekg/dns](https://github.com/miekg/dns)
+  - [h12w/socks](https://github.com/h12w/socks)
